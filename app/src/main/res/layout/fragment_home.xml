@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".view.fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/ssbTitleId"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="SSB Hospital Ltd."
+        android:textAlignment="center"
+        android:textColor="#F3E572"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewId"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/contentId"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/circleImageViewId"
+        android:layout_marginTop="5dp"
+        android:text=" ''Our Vision for a Self-Sustaining, Self-Determining inclusive model of HealthCare'' "
+        android:textAlignment="center"
+        android:textColor="#0A4C46"
+        android:textSize="20sp">
+
+    </TextView>
+
+</RelativeLayout>

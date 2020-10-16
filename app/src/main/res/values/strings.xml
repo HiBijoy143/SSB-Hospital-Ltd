@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SSB Hospitals Ltd</string>
+
+    <string-array name="name_of_days">
+        <item>WEEKLY OFF DAY</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="name_of_dept">
+        <item>DEPARTMENT</item>
+        <item>ANESTHESIOLOGY</item>
+        <item>CARDIAC &amp; VASCULAR SURGERY</item>
+        <item>CARDIOLOGY (INTERVENTIONAL)</item>
+        <item>Child Development</item>
+        <item>CLINICAL HEMATOLOGY</item>
+        <item>Colorectal &amp; Laparoscopic Surgery</item>
+        <item>DENTAL &amp; MAXILLOFACIAL SURGERY</item>
+        <item>DERMATOLOGY</item>
+        <item>ENDOCRINOLOGY</item>
+        <item>ENT, HEAD &amp; NECK SURGERY</item>
+        <item>GASTROENTEROLOGY</item>
+        <item>GENERAL SURGERY</item>
+        <item>INTERNAL MEDICINE</item>
+        <item>IVF</item>
+        <item>Microbiology</item>
+        <item>NEPHROLOGY</item>
+        <item>NEURO SURGERY</item>
+        <item>ONCOLOGY</item>
+        <item>ORTHOPEDICS</item>
+        <item>PATHOLOGY &amp; LAB. MEDICINE</item>
+        <item>Pediatric Cardiology</item>
+        <item>PEDIATRIC SURGERY</item>
+        <item>PHYSICAL MEDICINE</item>
+        <item>Plastic Surgery</item>
+        <item>PSYCHIATRY</item>
+        <item>RADIOLOGY &amp; IMAGING</item>
+        <item>Transfusion Medicine (Blood Bank)</item>
+        <item>UROLOGY</item>
+    </string-array>
+
+    <string name="appDetails">
+        This SSB HospitalLtd is a mobile application. Software-based medical service which belongs to
+SSB Hospital Limited. Including all kind of option, user can use for his treatment like searching doctor and
+request to appointment to the doctor, then the hospital admin or admin of SSB hospital application accepts or rejects the request.
+This mobile application reduces the time to go to the hospital and looking for a doctor.
+    </string>
+</resources>

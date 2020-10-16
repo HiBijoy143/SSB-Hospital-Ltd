@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_top_details_dev"
+        android:title="Developers Details"
+        android:icon="@drawable/ic_details"
+        android:iconTint="@android:color/white"
+        />
+    <item
+        android:id="@+id/menu_top_about_app"
+        android:title="About SSB"
+        android:icon="@drawable/ic_info"/>
+
+    <item
+        android:id="@+id/menu_top_logout"
+        android:title="Logout"/>
+
+</menu>

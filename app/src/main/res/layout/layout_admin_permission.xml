@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ad_perm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You don't have permission"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/ad_perm_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ad_perm_tv"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN AS ADMIN"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_rectangle"
+        android:textAlignment="center" />
+</RelativeLayout>
